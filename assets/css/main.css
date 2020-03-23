@@ -4543,8 +4543,11 @@ ul1 li1{
 ul1 li1 a{
 	background-color:rgb(75, 75, 75);
 	color:#FFF;
+	margin-top: 5px;
+	margin-bottom: 5px;
 	border-radius:50px;
-	text-align:center;
+	text-align: center;
+	font-size: x-large;
 	width:60px;
 	height:60px;
 	display:block;
