@@ -1,0 +1,234 @@
+<!DOCTYPE HTML>
+<!--
+	Massively by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+
+<head>
+    <title>Hien Nguyen's Portfolio</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <noscript>
+        <link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+</head>
+
+<body class="is-preload">
+
+    <!-- Wrapper -->
+    <div id="wrapper" class="fade-in">
+
+        <!-- Intro -->
+        <div id="intro">
+            <h1 style="font-style: italic;">My name is Hien Nguyen</h1>
+            <p>This is a showcase of my projects.</p>
+            <ul class="actions">
+                <li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
+            </ul>
+        </div>
+
+        <!-- Header -->
+        <header id="header">
+            <a href="index.html" class="logo">My Portfolio</a>
+        </header>
+
+        <!-- Nav -->
+        <nav id="nav">
+            <ul class="links">
+                <li class="active"><a href="index.html">My Portfolio</a></li>
+            </ul>
+            <ul class="icons">
+                <li><a href="#" class="icon brands fa-linkedin"><span class="label">Linkedin</span></a></li>
+                <li><a href="https://github.com/HieNG94" class="icon brands fa-github"><span
+                            class="label">GitHub</span></a></li>
+            </ul>
+        </nav>
+
+        <!-- Main -->
+        <div id="main">
+
+            <!-- Featured Post -->
+            <article class="post featured" id="proj">
+                <header class="major">
+                    <h2>Crossy Road Projects</h2>
+                    <p>This page display the process of making the
+                        classic Crossy road game.
+                        <br>Click on title to see the detail.</p>
+                </header>
+                <p class="image main"><img src="images/pic01.jpg" alt="" /></p>
+                <ul class="actions special">
+                    <li><a href="#proj_list" class="button large">Let's go</a></li>
+                </ul>
+            </article>
+            <!-- Posts -->
+            <section class="posts" id="proj_list">
+                <article>
+                    <header>
+                        <!-- Trigger/Open The Modal -->
+                        <h2 id="myBtn">Moving Chicken(No rotation)</h2>
+
+                        <!-- The Modal -->
+                        <div id="myModal" class="modal">
+
+                            <!-- Modal content -->
+                            <div class="modal-content">
+                                <span class="close">&times;</span>
+                                <h style="font-size: 20px;"><strong>
+                                        chicken simply move without rotation.<br>
+                                        No map layout is added. <br>
+                                        Truck and car move forward without respawn.
+                                    </strong></h>
+                            </div>
+                            <script>
+                                // Get the modal
+                                var modal = document.getElementById("myModal");
+
+                                // Get the button that opens the modal
+                                var btn = document.getElementById("myBtn");
+
+                                // Get the <span> element that closes the modal
+                                var span = document.getElementsByClassName("close")[0];
+
+                                // When the user clicks the button, open the modal 
+                                btn.onclick = function () {
+                                    modal.style.display = "block";
+                                }
+
+                                // When the user clicks on <span> (x), close the modal
+                                span.onclick = function () {
+                                    modal.style.display = "none";
+                                }
+
+                                // When the user clicks anywhere outside of the modal, close it
+                                window.onclick = function (event) {
+                                    if (event.target == modal) {
+                                        modal.style.display = "none";
+                                    }
+                                }
+                            </script>
+                        </div>
+                    </header>
+                    <p class="image fit"><img src="images/crossy_road.gif" alt="" /></p>
+                    <p style="text-align: center; font-size: large;">First update.</p>
+                    <ul class="actions special">
+                        <li><a href="https://github.com/HieNG94/Crossy_Road_project" class="button">Check it out</a>
+                        </li>
+                    </ul>
+                </article>
+                <article>
+                    <header>
+                        <!-- Trigger/Open The Modal -->
+                        <h2 id="myBtn1">Moving Chicken( With rotation)</h2>
+
+                        <!-- The Modal -->
+                        <div id="myModal1" class="modal">
+
+                            <!-- Modal content -->
+                            <div class="modal-content">
+                                <span class="close">&times;</span>
+                                <h style="font-size: 20px;"><strong>
+                                        The chicken can rotate when change direction.<br>
+                                        The chicken can jump while moving.<br>
+                                        Map layout is added. <br>
+                                        Trucks and cars can move from both side and respawn when go out of map.<br>
+                                        No logs and trains are added yet.
+                                    </strong></h>
+                            </div>
+                            <script>
+                                // Get the modal
+                                var modal = document.getElementById("myModal1");
+
+                                // Get the button that opens the modal
+                                var btn = document.getElementById("myBtn1");
+
+                                // Get the <span> element that closes the modal
+                                var span = document.getElementsByClassName("close")[0];
+
+                                // When the user clicks the button, open the modal 
+                                btn.onclick = function () {
+                                    modal.style.display = "block";
+                                }
+
+                                // When the user clicks on <span> (x), close the modal
+                                span.onclick = function () {
+                                    modal.style.display = "none";
+                                }
+
+                                // When the user clicks anywhere outside of the modal, close it
+                                window.onclick = function (event) {
+                                    if (event.target == modal) {
+                                        modal.style.display = "none";
+                                    }
+                                }
+                            </script>
+                        </div>
+                    </header>
+                    <p class="image fit"><img src="images/crossy_road.gif" alt="" /></p>
+                    <p style="text-align: center; font-size: large;">Second update.</p>
+                    <ul class="actions special">
+                        <li><a href="https://github.com/HieNG94/Crossy_Road_project_update2/tree/master/CrossyRoad"
+                                class="button">Check it out</a></li>
+                    </ul>
+                </article>
+            </section>
+        </div>
+
+        <!-- Footer -->
+        <footer id="footer">
+            <section class="split contact">
+                <section class="alt">
+                    <h3>Name</h3>
+                    <p>Hien Nguyen</p>
+                </section>
+                <section>
+                    <h3>School Email</h3>
+                    <p><a href="#">hiennguyen1194@csu.fulerton.edu</a></p>
+                </section>
+                <section>
+                    <h3>Personal Email</h3>
+                    <p><a href="#">hiennguyen513@hotmail.com</a></p>
+                </section>
+                <section>
+                    <h3>Social</h3>
+                    <ul class="icons alt">
+                        <li><a href="#" class="icon brands alt fa-linkedin"><span class="label">Linkedin</span></a></li>
+                        <li><a href="#" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+                    </ul>
+                </section>
+                <a class="float" id="menu-share">
+                    <i class="fa fa-share my-float"></i>
+                </a>
+                <ul1>
+                    <li1><a href="#proj">
+                            <i class="fa fa-arrow-up"></i>
+                        </a></li1>
+                    <li1><a href="https://hieng94.github.io/">
+                            <i class="fa fa-home"></i>
+                        </a></li1>
+                </ul1>
+            </section>
+        </footer>
+        <!-- Copyright -->
+        <div id="copyright">
+            <ul>
+                <li>&copy; Untitled</li>
+                <li>Design: <a href="https://html5up.net">HTML5 UP</a></li>
+            </ul>
+        </div>
+
+    </div>
+
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.scrollex.min.js"></script>
+    <script src="assets/js/jquery.scrolly.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
